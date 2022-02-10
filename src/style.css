@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: ghostwhite;
+}
+
+.paises {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px 20px;
+}
+
+.pais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 15px;
+    background-color: darkgrey;
+    border-radius: 5px;
+}
+
+img {
+    width: 320px;
+    height: 200px;
+}
+
+input {
+    position: sticky;
+    top: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.escondido {
+    display: none;
+}
